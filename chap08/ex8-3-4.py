@@ -44,7 +44,7 @@ def radix_sort(a, n):
 
 N = 10
 		
-LEN = 5
+LEN = 20
 a = []
 
 for i in xrange(0, LEN):
