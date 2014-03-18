@@ -37,17 +37,11 @@ def get_min(tree):
 	return tree[0]
 	
 def get_sub_min(tree, tree_cmp):
-	sub_min = 0
-	child = 1
-	if tree_cmp[0]:
-		sub_min = tree[2]
-		child = 1
-	else:
-		sub_min = tree[1]
-		child = 2
-		
+	sub_min = float("inf")
+	child = 0
+
 	level = int(math.log(len(tree_cmp) + 1, 2))
-	for i in xrange(1, level):
+	for i in xrange(0, level):
 		if tree_cmp[child]:
 			val_child = tree[child*2 + 2]
 			child = child*2 + 1
