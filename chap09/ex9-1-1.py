@@ -46,7 +46,7 @@ def get_sub_min(tree, tree_cmp):
 		sub_min = tree[1]
 		child = 2
 		
-	level = int(math.log(len(tree_cmp) + 1))
+	level = int(math.log(len(tree_cmp) + 1, 2))
 	for i in xrange(1, level):
 		if tree_cmp[child]:
 			val_child = tree[child*2 + 2]
@@ -65,7 +65,6 @@ for i in xrange(LEN):
 	a.append(random.randint(0,100))
 	
 print a
-print math.log(2)
 t, t_cmp = make_tree(a)
 print t, t_cmp
 print get_min(t)
