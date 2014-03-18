@@ -65,6 +65,7 @@ for i in xrange(LEN):
 	a.append(random.randint(0,100))
 	
 print a
+print math.log(2)
 t, t_cmp = make_tree(a)
 print t, t_cmp
 print get_min(t)
