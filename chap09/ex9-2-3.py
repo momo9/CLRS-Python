@@ -1,7 +1,7 @@
 import sys
 
 def get_pivot(a, p, r):
-	
+
 	pivot = a[r-1]
 	
 	i = p - 1
