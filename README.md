@@ -7,3 +7,4 @@ Python scripts for exercise of CLRS, including
 - [chapter 9](http://github.com/momo9/CLRS-Python/tree/master/chap09)
 - [chapter 10](http://github.com/momo9/CLRS-Python/tree/master/chap10)
 - [chapter 12](http://github.com/momo9/CLRS-Python/tree/master/chap12)
+Chapter 10 & Chapter 12 are incomplete. The rest parts of the two chapters are accomplished in CRLS-C.

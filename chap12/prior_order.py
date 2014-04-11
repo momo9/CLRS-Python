@@ -1,3 +1,4 @@
+# prior order traversal of binary tree
 def prior_order_trav(t, n):
 
   length = len(t)
