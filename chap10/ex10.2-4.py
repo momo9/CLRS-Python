@@ -1,5 +1,6 @@
-# CLRS excercise 10.2-4
+# CLRS exercise 10.2-4
 # Circular, doubly linked list with a sentinel
+# ! not accomplished !
 class CirDouList:
   def __init__(self):
     self.__nil = Node()

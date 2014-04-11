@@ -1,4 +1,4 @@
-# CLRS excercise 10.1-4
+# CLRS exercise 10.1-4
 # enqueue() & dequeue() that can deal with overflow
 
 class Queue:

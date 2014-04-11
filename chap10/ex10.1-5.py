@@ -1,4 +1,4 @@
-# CLRS excercise 10.1-5
+# CLRS exercise 10.1-5
 # deque implemented with array
 
 class Deque:
